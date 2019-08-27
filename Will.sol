@@ -60,7 +60,7 @@ contract EthWill {
         representative = rep;
     }
    
-    /*-----------------<Helpers>--------------------*/
+    /*-----------------<Helper>--------------------*/
     function totalArray(uint256[] memory amounts) private pure returns (uint) {
         uint total;
         for(uint i = 0; i < amounts.length; i++) {
